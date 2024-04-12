@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Lint Checks') {
             steps {
-                sh "Peforming style checks"
+                sh "echo Peforming style checks"
                 sh "mvn checkstyle:check || true"
             }
         }
