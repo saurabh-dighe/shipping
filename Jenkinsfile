@@ -6,7 +6,7 @@ pipeline {
         stage('Lint Checks') {
             steps {
                 sh "Peforming style checks"
-                sh "mvn site || true"
+                sh "mvn checkstyle:check || true"
             }
         }
         stage('Static Code Analysis') {
