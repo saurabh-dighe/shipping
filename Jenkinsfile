@@ -1,5 +1,5 @@
-@Library('shared-library')
+@Library('shared-library') _
 
 env.COMPONENT="shipping"
 
-shipping(COMPONENT)
+java(COMPONENT)
