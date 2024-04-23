@@ -1,6 +1,6 @@
 @Library('shared-library') _
 
 env.COMPONENT="shipping"
-env.APPTYPE="java"
+env.APPTYPE="maven"
 
 java(COMPONENT)
