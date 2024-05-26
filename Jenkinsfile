@@ -2,6 +2,6 @@
 
 env.COMPONENT="shipping"
 env.APPTYPE="maven"
-env.NEXUS_URL= "172.31.19.245"
+env.NEXUS_URL= "172.31.27.216"
 
 java()
