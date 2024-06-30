@@ -28,15 +28,15 @@ spec:
           httpGet:
             path: /health
             port: 8080
-          initialDelaySeconds: 5
+          initialDelaySeconds: 20
           periodSeconds: 10
         #Readiness probe
         readinessProbe:
           httpGet:
             path: /health
             port: 8080
-          initialDelaySeconds: 5
-          periodSeconds: 10
+          initialDelaySeconds: 30
+          periodSeconds: 30
         resources:
           requests:
             memory: "128Mi"
