@@ -3,3 +3,5 @@ RUN         mkdir /app
 WORKDIR     /app
 COPY        shipping.jar shipping.jar
 ENTRYPOINT  ["java", "-jar", "shipping.jar"] 
+
+#Shipping talks to cart and mysql 
