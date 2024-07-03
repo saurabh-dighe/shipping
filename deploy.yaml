@@ -5,7 +5,7 @@ metadata:
   labels:
     app: shipping
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels: 
       app: shipping
@@ -80,8 +80,8 @@ spec:
     apiVersion: apps/v1
     kind: Deployment
     name: shipping
-  minReplicas: 3
-  maxReplicas: 10
+  minReplicas: 2
+  maxReplicas: 5
   metrics:
   - type: Resource
     resource:
